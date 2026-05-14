@@ -1,0 +1,9 @@
+# macOS / editor cruft
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Build output of the embedded Flutter demo will live in /demo,
+# committed for GitHub Pages. Local Flutter intermediates are not.
