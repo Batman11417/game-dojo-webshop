@@ -247,3 +247,29 @@
   text-align: center;
   background: linear-gradient(135deg, rgba(95,39,205,0.12), rgba(72,219,251,0.12));
 }
+
+.demo-card-with-shot {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: left;
+}
+.demo-card-with-shot .app-shot {
+  width: 180px;
+  height: auto;
+  border-radius: 1.25rem;
+  display: block;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+}
+@media (max-width: 560px) {
+  .demo-card-with-shot {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1rem;
+  }
+  .demo-card-with-shot .app-shot {
+    margin-inline: auto;
+    width: 160px;
+  }
+}
