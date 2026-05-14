@@ -95,7 +95,7 @@ umbenannt, der bei der Wiederholung der Recherche frei war.
 
 Diese Notiz dokumentiert den Prozess intern (für die Bewertung des
 TU-Wien-Übungsbeispiels); auf der öffentlichen Website ist sie bewusst nicht
-sichtbar — echte Markenrechts-Recherchen werden auf About-Pages nur für die
+sichtbar – echte Markenrechts-Recherchen werden auf About-Pages nur für die
 tatsächlich verwendeten Marken belegt, nicht als Historie verworfener Namens-Kandidaten.
 
 ---

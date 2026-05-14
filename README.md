@@ -1,9 +1,9 @@
-# Game Dojo Austria GmbH — Mock Webshop
+# Game Dojo Austria GmbH – Mock Webshop
 
-Static mock webshop for the TU Wien assignment **280.A69-2026S** (Praxisbeispiel — Programmierbeispiel).
+Static mock webshop for the TU Wien assignment **280.A69-2026S** (Praxisbeispiel – Programmierbeispiel).
 Built with [Pico.css](https://picocss.com/) v2 + plain semantic HTML, hosted on GitHub Pages.
 
-The fictional product is **Fidget Mobile** — the Flutter app in the parent directory (`../`).
+The fictional product is **Fidget Mobile** – the Flutter app in the parent directory (`../`).
 A live web build of that app is intended to live under `/demo/`.
 
 ## Company profile (fictional, used throughout the site)
@@ -20,7 +20,7 @@ A live web build of that app is intended to live under `/demo/`.
 | Gewerbe | Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik (frei) |
 | Aufsichtsbehörde | Magistratisches Bezirksamt für den 10. Wiener Gemeindebezirk |
 | Kammer | WKO Wien, Fachgruppe UBIT |
-| Umsatzsteuer | Kleinunternehmer:in gem. § 6 Abs 1 Z 27 UStG — keine UID |
+| Umsatzsteuer | Kleinunternehmer:in gem. § 6 Abs 1 Z 27 UStG – keine UID |
 | Geschäftsmodell | Einmalkauf €0,99 |
 
 ## Pages and status
@@ -29,15 +29,15 @@ A live web build of that app is intended to live under `/demo/`.
 |---|---|---|
 | `index.html` | Landing | ✓ done |
 | `about.html` | 3 (Marken) | ✓ company facts; **TODO**: trademark prose × 3 + optional story |
-| `license.html` | 4 (Lizenz) | ✓ done — full FAGG/KSchG/VGG-aware text |
-| `privacy.html` | 5 (Datenschutz) | ✓ done — DSGVO Art 6/13/14/15-22, § 165 TKG 2021, DSB |
-| `impressum.html` | 6 (Gewerbe) | ✓ done — § 24/§ 25 MedienG + § 5 ECG + GewO 1994; **TODO**: FN + GF name |
-| `accessibility.html` | 1 (Barrierefreiheit) | ✓ done — BaFG, WCAG 2.2 AA, EN 301 549, Sozialministeriumservice |
-| `credits.html` | 2 (Urheberrecht) | ✓ done — fill audio row if you add sounds |
-| `widerrufsbelehrung.html` | 4 + 5 (FAGG) | ✓ done — § 11 + § 18 FAGG + Muster-Rücktrittsformular |
-| `contact.html` | 6 (Gewerbe) | ✓ done — mock form |
-| `checkout.html` | — | ✓ done — mock €0.99 + FAGG-Verzicht-Checkbox |
-| `404.html` | — | ✓ done |
+| `license.html` | 4 (Lizenz) | ✓ done – full FAGG/KSchG/VGG-aware text |
+| `privacy.html` | 5 (Datenschutz) | ✓ done – DSGVO Art 6/13/14/15-22, § 165 TKG 2021, DSB |
+| `impressum.html` | 6 (Gewerbe) | ✓ done – § 24/§ 25 MedienG + § 5 ECG + GewO 1994; **TODO**: FN + GF name |
+| `accessibility.html` | 1 (Barrierefreiheit) | ✓ done – BaFG, WCAG 2.2 AA, EN 301 549, Sozialministeriumservice |
+| `credits.html` | 2 (Urheberrecht) | ✓ done – fill audio row if you add sounds |
+| `widerrufsbelehrung.html` | 4 + 5 (FAGG) | ✓ done – § 11 + § 18 FAGG + Muster-Rücktrittsformular |
+| `contact.html` | 6 (Gewerbe) | ✓ done – mock form |
+| `checkout.html` | – | ✓ done – mock €0.99 + FAGG-Verzicht-Checkbox |
+| `404.html` | – | ✓ done |
 
 Remaining TODO blocks are dashed purple panels on the rendered page.
 
@@ -76,7 +76,7 @@ git push -u origin main
 On github.com → repo → **Settings → Pages → Source: `main` branch / root**.
 After ~1 minute the URL `https://<your-user>.github.io/<your-repo>/` is live.
 
-## Accessibility (WCAG 2.2 AA) — checklist before submit
+## Accessibility (WCAG 2.2 AA) – checklist before submit
 
 - [ ] WAVE: 0 errors, 0 contrast errors on every page
 - [ ] axe DevTools: 0 violations
