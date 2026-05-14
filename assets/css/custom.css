@@ -216,6 +216,29 @@
 }
 .site-footer ul li { margin: 0; }
 
+/* App store badges */
+.store-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.store-buttons a {
+  display: inline-block;
+  border-radius: 12px;
+  transition: transform 0.15s ease;
+  text-decoration: none;
+}
+.store-buttons a:hover,
+.store-buttons a:focus-visible {
+  transform: translateY(-2px);
+}
+.store-buttons img {
+  height: 56px;
+  display: block;
+}
+
 /* Demo embed pane */
 .demo-card {
   border-radius: 1rem;

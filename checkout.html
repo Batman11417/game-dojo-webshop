@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kauf abschließen – Game Dojo Austria</title>
-  <meta name="description" content="Fidget Mobile um €0,99 kaufen.">
+  <title>Bezugsquellen – Game Dojo Austria GmbH</title>
+  <meta name="description" content="Fidget Mobile herunterladen im Apple App Store und auf Google Play.">
   <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -32,97 +32,94 @@
   </header>
 
   <main id="main" class="container">
-    <h1>Kauf abschließen</h1>
+    <h1>Bezugsquellen</h1>
+    <p>
+      Fidget&nbsp;Mobile wird ausschließlich über die offiziellen App-Plattformen
+      <strong>Apple App Store</strong> und <strong>Google Play</strong> vertrieben.
+      Ein direkter Verkauf über diese Website findet nicht statt.
+    </p>
 
-    <section aria-labelledby="order-title">
-      <h2 id="order-title">Deine Bestellung</h2>
-      <article>
-        <header style="display:flex;align-items:center;gap:0.75rem">
-          <img src="assets/img/logo.svg" alt="" width="40" height="40">
-          <div>
-            <strong>Fidget Mobile</strong><br>
-            <small>Einmaliger Kauf · alle zukünftigen Updates inklusive</small>
-          </div>
-        </header>
-        <p style="display:flex;justify-content:space-between;margin:0">
-          <span>Preis</span><strong>€0,99</strong>
-        </p>
-      </article>
-      <p><small>Demo-Hinweis: Es wird nichts abgebucht. Es werden keine Daten übertragen.</small></p>
+    <section aria-labelledby="badges-title" style="text-align:center">
+      <h2 id="badges-title">Jetzt herunterladen</h2>
+      <div class="store-buttons" aria-label="App Store und Google Play">
+        <a href="#" aria-label="Im Apple App Store laden">
+          <img src="assets/img/badge-appstore.svg" alt="">
+        </a>
+        <a href="#" aria-label="Bei Google Play laden">
+          <img src="assets/img/badge-googleplay.svg" alt="">
+        </a>
+      </div>
+      <p>
+        <small>
+          Hinweis im Rahmen dieses Übungsbeispiels: Die Links sind Platzhalter. In einem
+          echten Webshop verweisen sie auf den Eintrag der App im jeweiligen Store.
+        </small>
+      </p>
     </section>
 
-    <section aria-labelledby="form-title">
-      <h2 id="form-title">Zahlungsdaten</h2>
+    <section aria-labelledby="contract-title">
+      <h2 id="contract-title">Wer wird Ihr Vertragspartner?</h2>
+      <p>
+        Beim Kauf über den Apple App Store schließen Sie den Kaufvertrag mit
+        <strong>Apple Distribution International Ltd.</strong> (Apple Ireland), Hollyhill Industrial
+        Estate, Hollyhill, Cork, Irland. Es gelten die
+        <a href="https://www.apple.com/legal/internet-services/itunes/at/terms.html" rel="external">Apple Media Services Terms and Conditions</a>.
+      </p>
+      <p>
+        Beim Kauf über Google Play schließen Sie den Kaufvertrag mit
+        <strong>Google Commerce Ltd.</strong>, Gordon House, Barrow Street, Dublin 4, Irland.
+        Es gelten die
+        <a href="https://play.google.com/intl/de-AT_at/about/play-terms/" rel="external">Google Play Nutzungsbedingungen</a>.
+      </p>
+      <p>
+        Game&nbsp;Dojo Austria GmbH ist Herausgeberin und Urheberin der Software. Für die durch
+        die jeweilige Plattform übernommene Vertragsabwicklung (Zahlung, Lieferung, Erstattung)
+        sind die Bedingungen des Stores maßgeblich; für die <em>Nutzung</em> der Software gelten
+        zusätzlich unsere <a href="license.html">Lizenzbedingungen</a>.
+      </p>
+    </section>
 
-      <div id="checkout-errors" role="alert" aria-live="polite" hidden
-           style="color:var(--pico-color-red-500);font-weight:600;margin-bottom:1rem"></div>
+    <section aria-labelledby="price-title">
+      <h2 id="price-title">Preis</h2>
+      <p>
+        Der empfohlene Verkaufspreis beträgt <strong>€ 0,99</strong> als einmaliger Kauf.
+        Die tatsächlich verrechnete Höhe richtet sich nach der jeweils gültigen Preistabelle
+        des App Stores bzw. Google Play in Ihrem Land und kann in Fremdwährungen abweichen.
+      </p>
+    </section>
 
-      <form id="checkout-form" novalidate>
-        <label for="co-name">
-          Name auf der Karte
-          <input id="co-name" name="name" type="text" autocomplete="cc-name" required>
-        </label>
-        <label for="co-email">
-          E-Mail für die Rechnung
-          <input id="co-email" name="email" type="email" autocomplete="email" required>
-        </label>
-        <label for="co-card">
-          Kartennummer (Demo – beliebige 16 Ziffern)
-          <input id="co-card" name="card" type="text" inputmode="numeric"
-                 pattern="[0-9 ]{13,23}" autocomplete="cc-number" required
-                 aria-describedby="card-hint">
-        </label>
-        <small id="card-hint">Diese Eingabe wird nur clientseitig geprüft und nicht gespeichert.</small>
+    <section aria-labelledby="refund-title">
+      <h2 id="refund-title">Rückerstattung &amp; Rücktrittsrecht</h2>
+      <p>
+        Da der Kaufvertrag mit Apple bzw. Google geschlossen wird, gelten für Rückerstattungen
+        primär die Refund-Bedingungen des jeweiligen Stores:
+      </p>
+      <ul>
+        <li>
+          <strong>Apple App Store</strong>: Anfragen über
+          <a href="https://reportaproblem.apple.com/" rel="external">reportaproblem.apple.com</a>;
+          das 14-tägige Rücktrittsrecht für EU-Verbraucher:innen wird über diesen Prozess geführt.
+        </li>
+        <li>
+          <strong>Google Play</strong>: Innerhalb von 2 Stunden nach Kauf automatisch im
+          Play-Store-Konto erstattbar; danach Anfrage über
+          <a href="https://support.google.com/googleplay/answer/2479637" rel="external">support.google.com/googleplay</a>.
+        </li>
+      </ul>
+      <p>
+        Unabhängig davon stehen Ihnen die gesetzlichen Rechte gemäß FAGG zu. Details finden Sie
+        in unserer <a href="widerrufsbelehrung.html">Widerrufsbelehrung</a>.
+      </p>
+    </section>
 
-        <div class="grid">
-          <label for="co-exp">
-            Ablauf (MM/JJ)
-            <input id="co-exp" name="exp" type="text" inputmode="numeric"
-                   pattern="(0[1-9]|1[0-2])/[0-9]{2}" autocomplete="cc-exp" required
-                   placeholder="04/30">
-          </label>
-          <label for="co-cvc">
-            CVC
-            <input id="co-cvc" name="cvc" type="text" inputmode="numeric"
-                   pattern="[0-9]{3,4}" autocomplete="cc-csc" required>
-          </label>
-        </div>
-
-        <fieldset>
-          <legend>Bedingungen &amp; Rücktrittsrecht</legend>
-          <label>
-            <input type="checkbox" name="terms" required>
-            Ich akzeptiere die <a href="license.html">Lizenzbedingungen</a> und die
-            <a href="privacy.html">Datenschutzerklärung</a>.
-          </label>
-          <label>
-            <input type="checkbox" name="consent" required>
-            Ich stimme hiermit ausdrücklich zu, dass noch vor Ablauf der sonst bestehenden
-            Rücktrittsfrist (Widerrufsfrist) mit der Erfüllung des Vertrages begonnen wird.
-          </label>
-          <label>
-            <input type="checkbox" name="acknowledge" required>
-            Ich bestätige, dass ich zur Kenntnis nehme, dass ich mein Rücktrittsrecht
-            (Widerrufsrecht) bei vorzeitigem Beginn mit der Vertragserfüllung verliere.
-            (Details siehe <a href="widerrufsbelehrung.html">Widerrufsbelehrung</a>.)
-          </label>
-        </fieldset>
-
-        <button type="submit">€0,99 zahlen (Demo)</button>
-        <p><small>Mit dem Klick auf „Zahlen“ wird in dieser Demo lediglich eine Bestätigungsseite angezeigt.</small></p>
-      </form>
-
-      <div id="checkout-success" hidden
-           style="border:1px solid var(--pico-muted-border-color);border-radius:0.5rem;padding:1.5rem;margin-top:1rem">
-        <h3>Danke für deinen (gemockten) Kauf!</h3>
-        <p>Hallo <span data-bind="name">…</span>, eine Bestätigung würde jetzt an
-           <span data-bind="email">…</span> gehen.</p>
-        <p>In der echten Welt findest du deinen Download-Link in dieser E-Mail.</p>
-        <p>
-          <a href="demo/index.html" role="button">Live-Demo öffnen</a>
-          <a href="index.html" role="button" class="secondary">Zur Startseite</a>
-        </p>
-      </div>
+    <section aria-labelledby="data-title">
+      <h2 id="data-title">Welche Daten sieht Game Dojo?</h2>
+      <p>
+        Beim Kauf über die App Stores erhält Game&nbsp;Dojo Austria&nbsp;GmbH von Apple bzw. Google
+        ausschließlich aggregierte Verkaufsberichte und Abrechnungsdaten — keine personenbezogenen
+        Käuferdaten wie Name, Adresse oder Zahlungsmittel. Details siehe
+        <a href="privacy.html">Datenschutzerklärung</a>.
+      </p>
     </section>
   </main>
 
@@ -143,10 +140,7 @@
 
   <aside id="cookie-banner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc" hidden>
     <h2 id="cookie-title" style="font-size:1.1rem;margin-top:0">Cookies &amp; Tracking</h2>
-    <p id="cookie-desc">
-      Diese Demo-Website verwendet nur einen technisch notwendigen Eintrag im Local Storage.
-      Mehr in unserer <a href="privacy.html">Datenschutzerklärung</a>.
-    </p>
+    <p id="cookie-desc">Diese Demo-Website verwendet nur einen technisch notwendigen Eintrag im Local Storage. Mehr in unserer <a href="privacy.html">Datenschutzerklärung</a>.</p>
     <div class="cookie-actions">
       <button type="button" data-consent="accept">Akzeptieren</button>
       <button type="button" class="secondary" data-consent="reject">Nur notwendige</button>
@@ -154,6 +148,5 @@
   </aside>
 
   <script src="assets/js/cookies.js" defer></script>
-  <script src="assets/js/checkout.js" defer></script>
 </body>
 </html>
