@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fidget Mobile | Game Dojo Austria</title>
-  <meta name="description" content="Fidget Mobile. die endlose, prozedural generierte Spielwiese fürs Smartphone. Einmaliger Kauf um €0,99.">
+  <meta name="description" content="Fidget Mobile ist ein endloses Raster aus tausenden kleinen Fidget-Spielzeugen. Statt Doomscrolling: scrollen, tippen, spielen. Einmaliger Kauf um 0,99 Euro.">
   <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 </head>
-<body>
+<body class="landing">
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
 
   <header class="site-header container">
@@ -31,85 +31,159 @@
     </nav>
   </header>
 
-  <main id="main" class="container">
-    <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Fidget Mobile</h1>
-      <p class="lede">
-        Das Gegenmittel zum Doomscrolling. Ob Instagram, Facebook oder YouTube: keine
-        Shorts mehr schauen. Mit Fidget&nbsp;Mobile gewöhnst du dir digitale Gewohnheiten
-        reibungslos ab.
-      </p>
-      <p>
-        <span class="price" aria-label="Preis: 99 Cent, einmaliger Kauf">€0,99</span>
-        <small>einmaliger Kauf · keine Abos · keine Werbung</small>
-      </p>
-      <div class="store-buttons" aria-label="Bezugsquellen für Fidget Mobile">
-        <a href="#" aria-label="Im Apple App Store laden">
-          <img src="assets/img/badge-appstore.svg" alt="">
-        </a>
-        <a href="#" aria-label="Bei Google Play laden">
-          <img src="assets/img/badge-googleplay.svg" alt="">
-        </a>
-      </div>
-      <p style="margin-top:1rem">
-        <a href="demo/index.html" role="button" class="secondary">Live-Demo im Browser öffnen</a>
-        <a href="checkout.html" role="button" class="contrast outline">Bezugsquellen ansehen</a>
-      </p>
-    </section>
-
-    <section aria-labelledby="features-title">
-      <h2 id="features-title">Was Fidget Mobile besonders macht</h2>
-      <div class="feature-grid">
-        <article>
-          <header><strong>Unendlich</strong></header>
-          <p>Jede Zelle ist deterministisch generiert. Jeder Punkt im Raster fühlt sich neu an, ohne jemals Inhalte nachzuladen.</p>
-        </article>
-        <article>
-          <header><strong>Offline-first</strong></header>
-          <p>Komplett ohne Server. Kein Tracking, keine Werbung. Einmal installieren, immer da.</p>
-        </article>
-        <article>
-          <header><strong>Haptik &amp; Sound</strong></header>
-          <p>Mikro-Klicks beim Scrollen, sanfte Vibrationen beim Tippen. Spür- und hörbar entspannend.</p>
-        </article>
-        <article>
-          <header><strong>WCAG-bewusst</strong></header>
-          <p>Hoher Kontrast, große Tap-Ziele, Tastatur-Navigation in der Web-Demo. Spaß für alle.</p>
-        </article>
-      </div>
-    </section>
-
-    <section aria-labelledby="demo-title">
-      <h2 id="demo-title">Vor dem Kauf ausprobieren</h2>
-      <div class="demo-card demo-card-with-shot">
-        <img class="app-shot"
-             src="assets/img/screenshots/grid.png"
-             alt="Bildschirmfoto von Fidget Mobile: ein Raster aus bunten App-Icon-Kacheln mit Sound-Toggle am unteren Rand."
-             width="500" height="1000" loading="lazy">
-        <div>
-          <p><strong>Die komplette App läuft direkt im Browser.</strong></p>
-          <p>Kein Download, keine Installation, einfach öffnen, scrollen, antippen.</p>
-          <p>
-            <a href="demo/index.html" role="button">Live-Demo öffnen</a>
+  <main id="main">
+    <section class="hero-pro" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-pro__inner">
+        <div class="hero-pro__copy">
+          <span class="hero-pro__eyebrow">Game Dojo Austria präsentiert</span>
+          <h1 id="hero-title" class="hero-pro__title">
+            Schluss mit Doomscrolling.<br>
+            <span class="hero-pro__title-accent">Fang an mit Daumendrücken.</span>
+          </h1>
+          <p class="hero-pro__lede">
+            Fidget Mobile ist ein endloses Raster aus tausenden kleinen
+            Fidget-Spielzeugen. Du scrollst in jede Richtung, tippst eine Kachel
+            an und spielst. Kein Algorithmus. Keine Werbung. Kein Suchtloop.
           </p>
+
+          <div class="hero-pro__cta">
+            <a href="#preis" class="btn-pill btn-pill--primary">
+              <span class="btn-pill__price">0,99&nbsp;€</span>
+              <span class="btn-pill__label">Einmaliger Kauf</span>
+            </a>
+            <a href="demo/index.html" class="btn-pill btn-pill--ghost">
+              <span class="btn-pill__label">Live im Browser testen</span>
+            </a>
+          </div>
+
+          <ul class="hero-pro__bullets" aria-label="Eigenschaften auf einen Blick">
+            <li>100 % offline</li>
+            <li>keine Abos</li>
+            <li>keine Werbung</li>
+            <li>kein Tracking</li>
+          </ul>
+        </div>
+
+        <div class="hero-pro__device" aria-hidden="false">
+          <div class="phone-frame">
+            <div class="phone-frame__notch"></div>
+            <img class="phone-frame__shot"
+                 src="assets/img/screenshots/grid.png"
+                 alt="Bildschirmfoto der App Fidget Mobile: ein Raster aus bunten App-Icon-Kacheln, jede mit einem Symbol und einem Namen, am unteren Rand ein Sound-Schalter."
+                 width="500" height="1000">
+          </div>
+          <div class="phone-glow" aria-hidden="true"></div>
         </div>
       </div>
     </section>
 
-    <section aria-labelledby="cta-title">
-      <h2 id="cta-title">Bereit?</h2>
-      <p>Ein Kauf. Ein Preis. Für immer auf dem Gerät.</p>
-      <div class="store-buttons" aria-label="Bezugsquellen">
-        <a href="#" aria-label="Im Apple App Store laden">
-          <img src="assets/img/badge-appstore.svg" alt="">
-        </a>
-        <a href="#" aria-label="Bei Google Play laden">
-          <img src="assets/img/badge-googleplay.svg" alt="">
-        </a>
+    <section class="explainer" aria-labelledby="explainer-title">
+      <div class="container">
+        <h2 id="explainer-title" class="section-title">Was du eigentlich kaufst</h2>
+        <p class="section-lede">
+          Ein simples Versprechen, klar erklärt. Damit du genau weißt, wofür
+          du deine 99 Cent ausgibst.
+        </p>
+
+        <ol class="explainer-steps">
+          <li class="explainer-step">
+            <span class="explainer-step__num">1</span>
+            <h3>App öffnen</h3>
+            <p>
+              Du siehst ein Raster aus bunten Kacheln. Jede Kachel ein eigenes
+              Mini-Universum. Scrollen geht in jede Richtung, unendlich weit.
+            </p>
+          </li>
+          <li class="explainer-step">
+            <span class="explainer-step__num">2</span>
+            <h3>Kachel antippen</h3>
+            <p>
+              Manche Kacheln öffnen ein neues Raster. Andere führen zu einer
+              Spielwiese mit kleinen Fidget-Spielzeugen zum Drehen, Drücken,
+              Schieben.
+            </p>
+          </li>
+          <li class="explainer-step">
+            <span class="explainer-step__num">3</span>
+            <h3>Daumen beruhigen</h3>
+            <p>
+              Vibration bei jedem Tap, Klick bei jeder Rast. Dein Daumen
+              bekommt etwas zu tun, dein Kopf eine Pause vom Newsfeed.
+            </p>
+          </li>
+        </ol>
       </div>
-      <p style="margin-top:1rem">
-        <a href="checkout.html">Mehr zu den Bezugsquellen</a>
-      </p>
+    </section>
+
+    <section class="features-pro" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title" class="section-title">Neun Fidgets, ein Preis</h2>
+        <p class="section-lede">
+          In den Spielwiesen warten neun kleine Spielzeuge auf deinen Daumen.
+          Jedes mit Haptik und Sound.
+        </p>
+
+        <ul class="fidget-grid" role="list">
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">●</span><h3>Schalter</h3><p>Tippen, an, aus, sanfter Farbverlauf.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">▬</span><h3>Schieber</h3><p>Ziehen mit Rast-Haptik an jeder Markierung.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">+</span><h3>Zähler</h3><p>Plus, Minus, kleine Federbewegung.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">◑</span><h3>Drehknopf</h3><p>Im Kreis drehen, Ring leuchtet mit.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">✺</span><h3>Spinner</h3><p>Anwerfen, frei trudeln, abklingen lassen.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">○</span><h3>Bubble&nbsp;Wrap</h3><p>Blasen platzen lassen, neu beginnen.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">◆</span><h3>Farbmixer</h3><p>Daumen ziehen, RGB mischen, schauen.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">♪</span><h3>Klavier</h3><p>Sieben Tasten, sauberer Ton, Highlights.</p></li>
+          <li class="fidget-card"><span class="fidget-card__icon" aria-hidden="true">▣</span><h3>Simon</h3><p>Farbfolge merken, nachtippen, gewinnen.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="demo-pro" aria-labelledby="demo-title">
+      <div class="container demo-pro__inner">
+        <div class="demo-pro__copy">
+          <span class="eyebrow eyebrow--accent">Live-Demo</span>
+          <h2 id="demo-title" class="section-title section-title--tight">Probieren bevor du kaufst</h2>
+          <p>
+            Die komplette App läuft direkt in deinem Browser. Keine Installation,
+            kein Login, kein Datendurst. Einfach öffnen, scrollen, antippen.
+          </p>
+          <p>
+            <a href="demo/index.html" class="btn-pill btn-pill--primary">
+              <span class="btn-pill__label">Demo starten</span>
+            </a>
+          </p>
+        </div>
+        <div class="demo-pro__visual">
+          <div class="phone-frame phone-frame--small">
+            <div class="phone-frame__notch"></div>
+            <img class="phone-frame__shot"
+                 src="assets/img/screenshots/grid.png"
+                 alt=""
+                 width="500" height="1000" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="preis" class="cta-pro" aria-labelledby="cta-title">
+      <div class="container cta-pro__inner">
+        <h2 id="cta-title" class="cta-pro__title">Ein Kauf. Für immer dabei.</h2>
+        <p class="cta-pro__lede">
+          0,99 Euro einmalig. Danach gehört die App dir, offline, ohne
+          Folgekosten, ohne Datensammler im Hintergrund.
+        </p>
+        <div class="store-buttons" aria-label="Bezugsquellen">
+          <a href="#" aria-label="Im Apple App Store laden">
+            <img src="assets/img/badge-appstore.svg" alt="">
+          </a>
+          <a href="#" aria-label="Bei Google Play laden">
+            <img src="assets/img/badge-googleplay.svg" alt="">
+          </a>
+        </div>
+        <p class="cta-pro__hint">
+          <a href="checkout.html">Mehr zu den Bezugsquellen</a>
+        </p>
+      </div>
     </section>
   </main>
 
