@@ -31,7 +31,7 @@ A live web build of that app is intended to live under `/demo/`.
 | `about.html` | 3 (Marken) | ✓ company facts; **TODO**: trademark prose × 3 + optional story |
 | `license.html` | 4 (Lizenz) | ✓ done, full FAGG/KSchG/VGG-aware text |
 | `privacy.html` | 5 (Datenschutz) | ✓ done, DSGVO Art 6/13/14/15-22, § 165 TKG 2021, DSB |
-| `impressum.html` | 6 (Gewerbe) | ✓ done, § 24/§ 25 MedienG + § 5 ECG + GewO 1994; **TODO**: FN + GF name |
+| `impressum.html` | 6 (Gewerbe) | ✓ done, § 24/§ 25 MedienG + § 5 ECG + GewO 1994 |
 | `accessibility.html` | 1 (Barrierefreiheit) | ✓ done, BaFG, WCAG 2.2 AA, EN 301 549, Sozialministeriumservice |
 | `credits.html` | 2 (Urheberrecht) | ✓ done, fill audio row if you add sounds |
 | `widerrufsbelehrung.html` | 4 + 5 (FAGG) | ✓ done, § 11 + § 18 FAGG + Muster-Rücktrittsformular |
