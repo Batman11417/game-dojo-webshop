@@ -114,9 +114,70 @@
 
     <section aria-labelledby="audio-title">
       <h2 id="audio-title">Musik &amp; Soundeffekte</h2>
-      <div class="todo-block">
-        <p>Wenn Sounds oder Musik eingebunden werden, hier ergänzen. Hinweis: die Live-Demo erzeugt alle Klänge prozedural in der App selbst, kein Drittmaterial.</p>
-      </div>
+      <p>
+        Auf dieser Website (Marketing-Seite) werden keine Audiomedien eingebunden.
+        Die eingebettete Live-Demo unter <a href="demo/index.html">/demo</a> erzeugt
+        alle Klänge prozedural in der App selbst (über die Bibliothek
+        <code>flutter_soloud</code>, MIT-Lizenz); es kommen keine fremden Sound-Samples
+        zum Einsatz.
+      </p>
+    </section>
+
+    <section aria-labelledby="animation-title">
+      <h2 id="animation-title">Animationen</h2>
+      <p>
+        Sämtliche Bewegungen auf dieser Website wurden als reines CSS von
+        Game&nbsp;Dojo Austria selbst geschrieben. Es kommt keine externe
+        Animations-Bibliothek (z.&nbsp;B. GSAP, Lottie, Anime.js) zum Einsatz.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Animation</th>
+            <th scope="col">Verwendung</th>
+            <th scope="col">Quelle</th>
+            <th scope="col">Lizenz</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Schweben des Handy-Mockups (<code>@keyframes phone-float</code>,
+              6&nbsp;s, ease-in-out, infinite)
+            </td>
+            <td>Startseite Hero und Demo-Sektion</td>
+            <td>Eigenwerk, <code>assets/css/custom.css</code></td>
+            <td>© 2026 Game&nbsp;Dojo Austria, alle Rechte vorbehalten</td>
+          </tr>
+          <tr>
+            <td>
+              Hover- und Focus-Übergänge (<code>transition: transform</code>,
+              kleine vertikale Sprünge auf Buttons, Karten, Store-Badges)
+            </td>
+            <td>Alle Seiten, interaktive Elemente</td>
+            <td>Eigenwerk, <code>assets/css/custom.css</code></td>
+            <td>© 2026 Game&nbsp;Dojo Austria, alle Rechte vorbehalten</td>
+          </tr>
+          <tr>
+            <td>
+              Seitenübergänge der eingebetteten App (Scale-Fade,
+              <code>PageRouteBuilder</code>)
+            </td>
+            <td>Live-Demo unter <a href="demo/index.html">/demo</a></td>
+            <td>Eigenwerk, Flutter-Quellcode der App</td>
+            <td>© 2026 Game&nbsp;Dojo Austria, alle Rechte vorbehalten</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <small>
+          Im Sinne der Barrierefreiheit (WCAG 2.2 Erfolgskriterium 2.3.3
+          „Animation aus Interaktionen") werden alle Bewegungen automatisch
+          deaktiviert, sobald die Nutzer:in im Betriebssystem die Einstellung
+          „Bewegung reduzieren" (<code>prefers-reduced-motion: reduce</code>)
+          aktiviert hat.
+        </small>
+      </p>
     </section>
 
     <section aria-labelledby="fonts-title">
