@@ -1,6 +1,17 @@
 /* Game Dojo Austria — overrides on top of Pico.css v2 */
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/InterVariable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
+  --pico-font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --pico-font-family-sans-serif: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
   --pico-primary:                   #5F27CD;
   --pico-primary-background:        #5F27CD;
   --pico-primary-border:            #5F27CD;

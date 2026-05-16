@@ -183,9 +183,43 @@
     <section aria-labelledby="fonts-title">
       <h2 id="fonts-title">Schriftarten</h2>
       <p>
-        Diese Seite verwendet die Standard-Schriften des Betriebssystems
-        (<code>system-ui</code> / Pico-Standard-Stack). Es werden keine externen Schriften nachgeladen,
-        somit keine Lizenz- oder Übertragungsfragen.
+        Diese Seite verwendet eine externe Schriftart, die lokal aus dem
+        Repository ausgeliefert wird. Es findet keine Übertragung an einen
+        Drittanbieter-CDN (z.&nbsp;B. Google Fonts) statt.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Schriftart</th>
+            <th scope="col">Quelle</th>
+            <th scope="col">Urheber</th>
+            <th scope="col">Lizenz</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Inter (Variable),
+              <code>assets/fonts/InterVariable.woff2</code>
+            </td>
+            <td>
+              <a href="https://rsms.me/inter/" rel="external">rsms.me/inter</a>
+            </td>
+            <td>Rasmus Andersson und die Inter Project Authors</td>
+            <td>
+              <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL"
+                 rel="external">SIL Open Font License 1.1</a>;
+              vollständiger Lizenztext im Repository unter
+              <code>assets/fonts/OFL.txt</code>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Inter wird für Überschriften und Fließtext der gesamten Website
+        verwendet. Sollte das Nachladen der Schriftart aus technischen Gründen
+        scheitern, greifen automatisch die Standard-Schriften des
+        Betriebssystems (<code>system-ui</code>) als Fallback.
       </p>
     </section>
 
