@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="Farbmarke: Pantone-ähnlicher Violetton #5F27CD">
-  <title>Farbmarke #5F27CD</title>
-  <rect width="200" height="80" rx="8" fill="#5F27CD"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="Farbmarke: Violett-Ton #7B7BE3">
+  <title>Farbmarke #7B7BE3</title>
+  <rect width="200" height="80" rx="8" fill="#7B7BE3"/>
   <text x="100" y="46" text-anchor="middle"
-        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
         font-size="16" font-weight="600" fill="#fff">
-    #5F27CD
+    #7B7BE3
   </text>
 </svg>

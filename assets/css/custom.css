@@ -12,29 +12,29 @@
   --pico-font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --pico-font-family-sans-serif: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
-  --pico-primary:                   #5F27CD;
-  --pico-primary-background:        #5F27CD;
-  --pico-primary-border:            #5F27CD;
-  --pico-primary-underline:         #5F27CD;
-  --pico-primary-hover:             #7841d6;
-  --pico-primary-hover-background:  #7841d6;
-  --pico-primary-hover-border:      #7841d6;
-  --pico-primary-focus:             rgba(95, 39, 205, 0.35);
+  --pico-primary:                   #7B7BE3;
+  --pico-primary-background:        #7B7BE3;
+  --pico-primary-border:            #7B7BE3;
+  --pico-primary-underline:         #7B7BE3;
+  --pico-primary-hover:             #6262B3;
+  --pico-primary-hover-background:  #6262B3;
+  --pico-primary-hover-border:      #6262B3;
+  --pico-primary-focus:             rgba(123, 123, 227, 0.35);
   --pico-primary-inverse:           #ffffff;
 
   --brand-accent: #48DBFB;
-  --brand-purple: #5F27CD;
+  --brand-purple: #7B7BE3;
 }
 
 [data-theme="dark"], :root:not([data-theme="light"]) {
-  --pico-primary:                   #b39bff;
-  --pico-primary-background:        #5F27CD;
-  --pico-primary-border:            #5F27CD;
-  --pico-primary-underline:         #b39bff;
-  --pico-primary-hover:             #c8b6ff;
-  --pico-primary-hover-background:  #7841d6;
-  --pico-primary-hover-border:      #7841d6;
-  --pico-primary-focus:             rgba(179, 155, 255, 0.4);
+  --pico-primary:                   #BFB8FF;
+  --pico-primary-background:        #7B7BE3;
+  --pico-primary-border:            #7B7BE3;
+  --pico-primary-underline:         #BFB8FF;
+  --pico-primary-hover:             #d4cfff;
+  --pico-primary-hover-background:  #6262B3;
+  --pico-primary-hover-border:      #6262B3;
+  --pico-primary-focus:             rgba(191, 184, 255, 0.4);
   --pico-primary-inverse:           #0b0b1a;
 }
 
@@ -161,7 +161,7 @@
 /* TODO placeholder block for legal pages */
 .todo-block {
   border: 2px dashed var(--brand-purple);
-  background: rgba(95, 39, 205, 0.08);
+  background: rgba(123,123,227, 0.08);
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;
   margin: 1rem 0;
@@ -235,7 +235,7 @@
   border: 1px solid var(--pico-muted-border-color);
   padding: 1.5rem;
   text-align: center;
-  background: linear-gradient(135deg, rgba(95,39,205,0.12), rgba(72,219,251,0.12));
+  background: linear-gradient(135deg, rgba(123,123,227,0.12), rgba(72,219,251,0.12));
 }
 
 .demo-card-with-shot {
@@ -270,7 +270,7 @@
 
 body.landing {
   background:
-    radial-gradient(1200px 600px at 80% -10%, rgba(95,39,205,0.25), transparent 60%),
+    radial-gradient(1200px 600px at 80% -10%, rgba(123,123,227,0.25), transparent 60%),
     radial-gradient(900px 500px at -10% 30%, rgba(72,219,251,0.18), transparent 55%),
     var(--pico-background-color);
 }
@@ -290,7 +290,7 @@ body.landing {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(135deg, rgba(95,39,205,0.08), rgba(72,219,251,0.05)),
+    linear-gradient(135deg, rgba(123,123,227,0.08), rgba(72,219,251,0.05)),
     repeating-linear-gradient(0deg, transparent 0 79px, rgba(255,255,255,0.025) 79px 80px),
     repeating-linear-gradient(90deg, transparent 0 79px, rgba(255,255,255,0.025) 79px 80px);
   mask-image: radial-gradient(ellipse at 50% 30%, black 40%, transparent 75%);
@@ -385,7 +385,7 @@ body.landing {
   padding: 0.5rem;
   background: linear-gradient(160deg, #1a1a2e, #0f0f1a);
   box-shadow:
-    0 30px 80px rgba(95,39,205,0.35),
+    0 30px 80px rgba(123,123,227,0.35),
     0 0 0 1px rgba(255,255,255,0.06) inset,
     0 0 0 2px rgba(0,0,0,0.6);
   z-index: 2;
@@ -415,7 +415,7 @@ body.landing {
 .phone-glow {
   position: absolute;
   inset: -10%;
-  background: radial-gradient(closest-side, rgba(95,39,205,0.35), transparent 70%);
+  background: radial-gradient(closest-side, rgba(123,123,227,0.35), transparent 70%);
   filter: blur(20px);
   z-index: 1;
   pointer-events: none;
@@ -430,7 +430,7 @@ body.landing {
 
 /* ---------- Pill buttons ---------- */
 .btn-pill {
-  --pill-bg: linear-gradient(120deg, #5F27CD, #7841d6);
+  --pill-bg: linear-gradient(120deg, #7B7BE3, #6262B3);
   --pill-fg: #fff;
   display: inline-flex;
   align-items: center;
@@ -442,14 +442,14 @@ body.landing {
   font-weight: 700;
   text-decoration: none;
   border: 1px solid transparent;
-  box-shadow: 0 10px 30px rgba(95,39,205,0.35);
+  box-shadow: 0 10px 30px rgba(123,123,227,0.35);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   white-space: nowrap;
 }
 .btn-pill:hover,
 .btn-pill:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 14px 36px rgba(95,39,205,0.45);
+  box-shadow: 0 14px 36px rgba(123,123,227,0.45);
 }
 .btn-pill--ghost {
   --pill-bg: transparent;
@@ -533,11 +533,11 @@ body.landing {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: linear-gradient(120deg, #5F27CD, #48DBFB);
+  background: linear-gradient(120deg, #7B7BE3, #48DBFB);
   color: #fff;
   font-weight: 800;
   font-size: 1rem;
-  box-shadow: 0 8px 20px rgba(95,39,205,0.35);
+  box-shadow: 0 8px 20px rgba(123,123,227,0.35);
 }
 .explainer-step h3 {
   margin: 0.25rem 0 0.5rem;
@@ -568,7 +568,7 @@ body.landing {
   transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .fidget-card:hover {
-  background: rgba(95,39,205,0.12);
+  background: rgba(123,123,227,0.12);
   border-color: rgba(179,155,255,0.35);
   transform: translateY(-2px);
 }
@@ -578,7 +578,7 @@ body.landing {
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 0.65rem;
-  background: linear-gradient(135deg, rgba(95,39,205,0.4), rgba(72,219,251,0.3));
+  background: linear-gradient(135deg, rgba(123,123,227,0.4), rgba(72,219,251,0.3));
   color: #fff;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
@@ -599,7 +599,7 @@ body.landing {
 .demo-pro {
   padding: clamp(3rem, 6vw, 5rem) 0;
   background:
-    linear-gradient(135deg, rgba(95,39,205,0.18), rgba(72,219,251,0.12));
+    linear-gradient(135deg, rgba(123,123,227,0.18), rgba(72,219,251,0.12));
   border-top: 1px solid rgba(255,255,255,0.06);
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
